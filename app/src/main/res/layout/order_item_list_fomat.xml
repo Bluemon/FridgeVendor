@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/dataItem00"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/dataItem01"
+            android:layout_width="170dp"
+            android:layout_height="fill_parent"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:padding="4dp"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:text="-"
+            android:id="@+id/subAmount"
+            android:nestedScrollingEnabled="true" />
+
+        <TextView
+            android:id="@+id/dataItem02"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#000000" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="fill_parent"
+            android:text="+"
+            android:id="@+id/addAmount" />
+
+    </LinearLayout>
+
+</LinearLayout>

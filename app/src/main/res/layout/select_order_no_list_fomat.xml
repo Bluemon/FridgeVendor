@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left|end" >
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/dataOrderNo"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:text="선택"
+            android:id="@+id/orderNoSelectButton"
+            android:textSize="25dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="onButtonOrderNoSelectClicked" />
+    </LinearLayout>
+</LinearLayout>
